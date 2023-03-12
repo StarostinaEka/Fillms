@@ -1,6 +1,7 @@
 package ru.netology.fillms;
 public class FilmsManager {
-   
+
+    private static String[] films;
     private final int limit;
 
     public FilmsManager() {
@@ -10,8 +11,6 @@ public class FilmsManager {
     public FilmsManager(int limit) {
         this.limit = limit;
     }
-
-    private String[] films = new String[0];
 
     public static void add(String film) {
         String[] tmp = new String[films.length + 1];
