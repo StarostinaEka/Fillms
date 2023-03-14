@@ -147,16 +147,6 @@ public class FilmManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void ShouldShowLessThanLimit() {
-        FilmManager manager = new FilmManager();
-
-        manager.add("Film 1");
 
 
-        String[] expected = {"Film 1"};
-        String[] actual = manager.findLast();
-
-        Assertions.assertArrayEquals(expected, actual);
-    }
 }

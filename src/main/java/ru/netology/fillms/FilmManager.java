@@ -5,6 +5,7 @@ public class FilmManager {
     private int limit;
 
     public FilmManager() {
+
         this.limit = 10;
     }
 
@@ -23,6 +24,7 @@ public class FilmManager {
     }
 
     public String[] findAll() {
+
         return movies;
     }
 
@@ -38,8 +40,8 @@ public class FilmManager {
                 tmp[i] = movies[movies.length - 1 - i];
             }
             return tmp;
-        }
-
     }
+
+}
 
 
