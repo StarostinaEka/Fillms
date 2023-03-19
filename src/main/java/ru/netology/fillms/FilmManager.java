@@ -10,6 +10,7 @@ public class FilmManager {
     }
 
     public FilmManager(int limit) {
+
         this.limit = limit;
     }
 
@@ -40,6 +41,9 @@ public class FilmManager {
                 tmp[i] = movies[movies.length - 1 - i];
             }
             return tmp;
+        }
+
+        return new String[0];
     }
 
 }
