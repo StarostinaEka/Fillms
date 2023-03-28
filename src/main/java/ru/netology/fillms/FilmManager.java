@@ -43,7 +43,6 @@ public class FilmManager {
             return tmp;
         }
 
-        return new String[0];
     }
 
 }
