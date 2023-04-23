@@ -36,15 +36,17 @@ public class FilmManager {
         } else {
             resultLength = limit;
 
-            String[] tmp = new String[resultLength];
+           // String[] tmp = new String[resultLength];
+            String[] tmp = new String[limit];
             for (int i = 0; i < tmp.length; i++) {
                 tmp[i] = movies[movies.length - 1 - i];
             }
             return tmp;
-        }
 
+        //return tmp;
 
-        return new String[0];
+      //  return new String[] = limit;
+        // public new FilmManager();
     }
 
 
